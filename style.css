@@ -5,9 +5,7 @@
     .nav-menu{
         display: none;
     }
-    .phn-menu{
-        display: block;
-    }
+    
 
     /*  */
     .banner{
@@ -50,13 +48,11 @@
         gap: 25px;
     }
 
-@media screen and (min-width: 420px) and (max-width: 1170px){
+@media screen and (min-width: 420px) and (max-width: 900px) {
     body{
         padding: 30px;
     }
-    .phn-menu{
-        display: none;
-    }
+    
 
     .blank-cont{
         grid-template-columns: repeat(2, 1fr);
